@@ -1,0 +1,82 @@
+{
+    "name": "ddx",
+    "displayName": "ddx",
+    "description": "mini program enhancement framework",
+    "version": "0.0.1",
+    "scripts": {
+        "build:grammar": "tsc -p . && node dist/scripts/build_grammar"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ddx",
+                "aliases": [
+                    "ddx",
+                    "DDX"
+                ],
+                "extensions": [
+                    ".ddx"
+                ],
+                "configuration": "./languages/ddx-language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+              "language": "ddx",
+              "scopeName": "source.ddx",
+              "path": "./syntaxes/vue-generated.json",
+              "embeddedLanguages": {
+                "text.html.basic": "html",
+                "text.html.ddx-html": "ddx-html",
+                "text.jade.slm": "slm",
+                "text.pug": "jade",
+                "text.haml": "haml",
+                "text.html.liquid": "liquid",
+                "source.css": "css",
+                "source.css.scss": "scss",
+                "source.css.less": "less",
+                "source.css.postcss": "vue-postcss",
+                "source.sass": "sass",
+                "source.stylus": "stylus",
+                "source.js": "javascript",
+                "source.ts": "typescript",
+                "source.coffee": "coffeescript",
+                "text.html.markdown": "md",
+                "source.yaml": "yaml",
+                "source.json": "json",
+                "source.php": "php",
+                "source.graphql": "graphql"
+              }
+            }
+        ]
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/js-yaml": "^3.12.1",
+        "@types/lodash": "^4.14.146",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.12.7",
+        "@types/shelljs": "^0.8.6",
+        "@types/vscode": "^1.40.0",
+        "glob": "^7.1.6",
+        "husky": "^3.0.9",
+        "js-yaml": "^3.13.1",
+        "lint-staged": "^9.4.2",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^1.19.1",
+        "shelljs": "^0.8.3",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.2",
+        "vscode": "^1.1.36"
+    },
+    "dependencies": {
+        "vscode-languageclient": "^5.2.1",
+        "vscode-languageserver-types": "^3.14.0"
+    }
+}
