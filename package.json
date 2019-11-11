@@ -3,11 +3,20 @@
     "displayName": "ddx",
     "description": "mini program enhancement framework",
     "version": "0.0.1",
+    "publisher": "yyjazsf",
     "scripts": {
-        "build:grammar": "tsc -p . && node dist/scripts/build_grammar"
+        "build:grammar": "tsc -p . && node dist/scripts/build_grammar",
+        "watch": "run-s compile watch:build",
+        "watch:build": "tsc -b -w .",
+        "compile": "run-s compile:source",
+        "compile:source": "tsc -b ."
     },
     "engines": {
         "vscode": "^1.40.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mini-ddx/ddx-next.git"
     },
     "categories": [
         "Programming Languages"
@@ -30,7 +39,7 @@
             {
               "language": "ddx",
               "scopeName": "source.ddx",
-              "path": "./syntaxes/vue-generated.json",
+              "path": "./syntaxes/ddx-generated.json",
               "embeddedLanguages": {
                 "text.html.basic": "html",
                 "text.html.ddx-html": "ddx-html",
@@ -54,7 +63,25 @@
                 "source.graphql": "graphql"
               }
             }
-        ]
+        ],
+        "configuration": {
+            "title": "ddx-next",
+            "properties": {
+                "ddx.format.enable": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable/disable the ddx document formatter."
+                },
+                "ddx.grammar.customBlocks": {
+                    "type": "object",
+                    "default": {
+                      "docs": "md",
+                      "i18n": "json"
+                    },
+                    "description": "Mapping from custom block tag name to language name. Used for generating grammar to support syntax highlighting for custom blocks."
+                }
+            }
+        }
     },
     "devDependencies": {
         "@types/glob": "^7.1.1",

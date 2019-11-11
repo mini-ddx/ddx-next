@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.options.json",
+    "compilerOptions": {
+      "composite": true,
+      "outDir": "../dist",
+      "rootDir": ".."
+    },
+    "references": [
+      { "path": "../client" }
+    ]
+  }
+  
