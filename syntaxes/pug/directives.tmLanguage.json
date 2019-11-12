@@ -1,0 +1,9 @@
+{
+  "scopeName": "ddx.pug.directives",
+  "injectionSelector": "L:meta.tag.other -text.html.ddx-html",
+  "patterns": [
+    {
+      "include": "source.ddx#ddx-directives"
+    }
+  ]
+}

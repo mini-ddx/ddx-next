@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-      "target": "ES2015",
-      "module": "commonjs",
-      "strict": true,
-      "sourceMap": true
-    }
-  }
-  
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", ".vscode-test"]
+}

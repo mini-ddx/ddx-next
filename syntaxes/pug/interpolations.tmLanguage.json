@@ -1,0 +1,9 @@
+{
+  "scopeName": "ddx.pug.interpolations",
+  "injectionSelector": "L:text.pug",
+  "patterns": [
+    {
+      "include": "source.ddx#ddx-interpolations"
+    }
+  ]
+}

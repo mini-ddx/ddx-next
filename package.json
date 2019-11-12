@@ -1,109 +1,162 @@
 {
-    "name": "ddx",
-    "displayName": "ddx",
-    "description": "mini program enhancement framework",
-    "version": "0.0.1",
-    "publisher": "yyjazsf",
-    "scripts": {
-        "build:grammar": "tsc -p . && node dist/scripts/build_grammar",
-        "watch": "run-s compile watch:build",
-        "watch:build": "tsc -b -w .",
-        "compile": "run-s compile:source",
-        "compile:source": "tsc -b ."
-    },
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mini-ddx/ddx-next.git"
-    },
-    "categories": [
-        "Programming Languages"
+  "name": "ddx",
+  "displayName": "ddx",
+  "description": "mini program enhancement framework",
+  "version": "0.0.1",
+  "publisher": "yyjazsf",
+  "license": "MIT",
+  "scripts": {
+    "build:grammar": "tsc -p . && node dist/scripts/build_grammar",
+    "watch": "run-s compile watch:build",
+    "watch:build": "tsc -b -w .",
+    "compile": "run-s compile:source",
+    "compile:source": "tsc -b ."
+  },
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mini-ddx/ddx-next.git"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:ddx"
+  ],
+  "main": "./server/dist/ddxServerMain",
+  "contributes": {
+    "breakpoints": [
+      {
+        "language": "ddx"
+      }
     ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "ddx",
-                "aliases": [
-                    "ddx",
-                    "DDX"
-                ],
-                "extensions": [
-                    ".ddx"
-                ],
-                "configuration": "./languages/ddx-language-configuration.json"
-            }
+    "languages": [
+      {
+        "id": "ddx",
+        "aliases": [
+          "ddx",
+          "DDX"
         ],
-        "grammars": [
-            {
-              "language": "ddx",
-              "scopeName": "source.ddx",
-              "path": "./syntaxes/ddx-generated.json",
-              "embeddedLanguages": {
-                "text.html.basic": "html",
-                "text.html.ddx-html": "ddx-html",
-                "text.jade.slm": "slm",
-                "text.pug": "jade",
-                "text.haml": "haml",
-                "text.html.liquid": "liquid",
-                "source.css": "css",
-                "source.css.scss": "scss",
-                "source.css.less": "less",
-                "source.css.postcss": "vue-postcss",
-                "source.sass": "sass",
-                "source.stylus": "stylus",
-                "source.js": "javascript",
-                "source.ts": "typescript",
-                "source.coffee": "coffeescript",
-                "text.html.markdown": "md",
-                "source.yaml": "yaml",
-                "source.json": "json",
-                "source.php": "php",
-                "source.graphql": "graphql"
-              }
-            }
+        "extensions": [
+          ".ddx"
         ],
-        "configuration": {
-            "title": "ddx-next",
-            "properties": {
-                "ddx.format.enable": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "Enable/disable the ddx document formatter."
-                },
-                "ddx.grammar.customBlocks": {
-                    "type": "object",
-                    "default": {
-                      "docs": "md",
-                      "i18n": "json"
-                    },
-                    "description": "Mapping from custom block tag name to language name. Used for generating grammar to support syntax highlighting for custom blocks."
-                }
-            }
+        "configuration": "./languages/ddx-language-configuration.json"
+      },
+      {
+        "id": "ddx-html",
+        "aliases": [
+          "ddx-html"
+        ],
+        "configuration": "./languages/ddx-html-language-configuration.json"
+      },
+      {
+        "id": "ddx-postcss",
+        "aliases": [
+          "ddx-PostCSS",
+          "ddx-POSTCSS",
+          "ddx-postcss"
+        ],
+        "configuration": "./languages/ddx-postcss-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ddx",
+        "scopeName": "source.ddx",
+        "path": "./syntaxes/ddx-generated.json",
+        "embeddedLanguages": {
+          "text.html.basic": "html",
+          "text.html.ddx-html": "ddx-html",
+          "text.jade.slm": "slm",
+          "text.pug": "jade",
+          "text.haml": "haml",
+          "text.html.liquid": "liquid",
+          "source.css": "css",
+          "source.css.scss": "scss",
+          "source.css.less": "less",
+          "source.css.postcss": "ddx-postcss",
+          "source.sass": "sass",
+          "source.stylus": "stylus",
+          "source.js": "javascript",
+          "source.ts": "typescript",
+          "source.coffee": "coffeescript",
+          "text.html.markdown": "md",
+          "source.yaml": "yaml",
+          "source.json": "json",
+          "source.php": "php",
+          "source.graphql": "graphql"
         }
-    },
-    "devDependencies": {
-        "@types/glob": "^7.1.1",
-        "@types/js-yaml": "^3.12.1",
-        "@types/lodash": "^4.14.146",
-        "@types/mocha": "^5.2.7",
-        "@types/node": "^12.12.7",
-        "@types/shelljs": "^0.8.6",
-        "@types/vscode": "^1.40.0",
-        "glob": "^7.1.6",
-        "husky": "^3.0.9",
-        "js-yaml": "^3.13.1",
-        "lint-staged": "^9.4.2",
-        "npm-run-all": "^4.1.5",
-        "prettier": "^1.19.1",
-        "shelljs": "^0.8.3",
-        "tslint": "^5.20.1",
-        "typescript": "^3.7.2",
-        "vscode": "^1.1.36"
-    },
-    "dependencies": {
-        "vscode-languageclient": "^5.2.1",
-        "vscode-languageserver-types": "^3.14.0"
+      },
+      {
+        "language": "ddx-postcss",
+        "scopeName": "source.css.postcss",
+        "path": "./syntaxes/ddx-postcss.json"
+      },
+      {
+        "language": "ddx-html",
+        "scopeName": "text.html.ddx-html",
+        "path": "./syntaxes/ddx-html.tmLanguage.json",
+        "embeddedLanguages": {
+          "source.js": "javascript"
+        }
+      },
+      {
+        "path": "./syntaxes/pug/directives.tmLanguage.json",
+        "scopeName": "ddx.pug.directives",
+        "injectTo": [
+          "source.ddx"
+        ]
+      },
+      {
+        "path": "./syntaxes/pug/interpolations.tmLanguage.json",
+        "scopeName": "ddx.pug.interpolations",
+        "injectTo": [
+          "source.ddx"
+        ]
+      }
+    ],
+    "configuration": {
+      "title": "ddx-next",
+      "properties": {
+        "ddx.format.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable the ddx document formatter."
+        },
+        "ddx.grammar.customBlocks": {
+          "type": "object",
+          "default": {
+            "docs": "md",
+            "i18n": "json"
+          },
+          "description": "Mapping from custom block tag name to language name. Used for generating grammar to support syntax highlighting for custom blocks."
+        }
+      }
     }
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/js-yaml": "^3.12.1",
+    "@types/lodash": "^4.14.146",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.7",
+    "@types/shelljs": "^0.8.6",
+    "@types/vscode": "^1.40.0",
+    "glob": "^7.1.6",
+    "husky": "^3.0.9",
+    "js-yaml": "^3.13.1",
+    "lint-staged": "^9.4.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "shelljs": "^0.8.3",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "vscode": "^1.1.36"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^5.2.1",
+    "vscode-languageserver-types": "^3.14.0"
+  }
 }
