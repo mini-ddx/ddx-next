@@ -297,13 +297,13 @@
         "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
         "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
       },
-      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts": {
-        "version": "9e526b48daf9ed82ee32a65b7a0b02e246a97fdab86ddd6d68802dd4b1ca34e6",
-        "signature": "9e526b48daf9ed82ee32a65b7a0b02e246a97fdab86ddd6d68802dd4b1ca34e6"
+      "./node_modules/vscode-jsonrpc/typings/thenable.d.ts": {
+        "version": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "signature": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871"
       },
       "./node_modules/vscode-jsonrpc/lib/messages.d.ts": {
-        "version": "a51001b14af412097f3f4dd61018b75d260237e3b32e8a597466acc99e04d637",
-        "signature": "a51001b14af412097f3f4dd61018b75d260237e3b32e8a597466acc99e04d637"
+        "version": "5b3cd8bfbeca39186a9c63170cbb29a7e4b5c69f5a321b5a2725f6dae633fa71",
+        "signature": "5b3cd8bfbeca39186a9c63170cbb29a7e4b5c69f5a321b5a2725f6dae633fa71"
       },
       "./node_modules/vscode-jsonrpc/lib/events.d.ts": {
         "version": "268c82abfac6e4e67e1109b2e2262440bc0551e25aa74ecafce19e7fb41a8a8b",
@@ -314,8 +314,8 @@
         "signature": "29402e2e2b6f2d8ede6fd5810941c03273da2b974f90a28582f09b3ddfbe8e39"
       },
       "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": {
-        "version": "13375560ea53f92da84deed1e69d3419493c5a3fbbdf66f73d0cdd2a822294a4",
-        "signature": "13375560ea53f92da84deed1e69d3419493c5a3fbbdf66f73d0cdd2a822294a4"
+        "version": "c7200e6c81352efbde45aac8677412f639a0f61438e311fe3f8a79ba7af13f37",
+        "signature": "c7200e6c81352efbde45aac8677412f639a0f61438e311fe3f8a79ba7af13f37"
       },
       "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts": {
         "version": "39b86da3e11ecd654e5ce829a304f1be3db0b803b7a37039ae731c6c1a2835b9",
@@ -326,56 +326,68 @@
         "signature": "cc0ab71a27bb4cffe308853ae2b3f0874f698f8dee3e17169268339260884534"
       },
       "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": {
-        "version": "ee689049f0f13efbb5cb9b06661955dedd3f0b7841da943f96bd53a9e5c928bb",
-        "signature": "ee689049f0f13efbb5cb9b06661955dedd3f0b7841da943f96bd53a9e5c928bb"
+        "version": "675730e3c6e2b43abab66748751622ba0cefad5b38419d217d285ab8f608d0b7",
+        "signature": "675730e3c6e2b43abab66748751622ba0cefad5b38419d217d285ab8f608d0b7"
       },
       "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": {
-        "version": "a0c4ba7b6c496a6b5ca41b99964dc0dd4f1a2910d6618c1cf57872b33fab3cf7",
-        "signature": "a0c4ba7b6c496a6b5ca41b99964dc0dd4f1a2910d6618c1cf57872b33fab3cf7"
+        "version": "dfd2b027116d29e90e44461d0bf03b03b31310439e49950a9f128ea8edc2619b",
+        "signature": "dfd2b027116d29e90e44461d0bf03b03b31310439e49950a9f128ea8edc2619b"
       },
       "./node_modules/vscode-jsonrpc/lib/main.d.ts": {
-        "version": "df82b712e3a8bfa6db2842413fae7bb96d123485a34050e155bd58b239b11fec",
-        "signature": "df82b712e3a8bfa6db2842413fae7bb96d123485a34050e155bd58b239b11fec"
+        "version": "5791da541ff19825947ec53107c44c1ce424a56ad8b79685f7c4aeaa3fa01337",
+        "signature": "5791da541ff19825947ec53107c44c1ce424a56ad8b79685f7c4aeaa3fa01337"
       },
       "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts": {
-        "version": "44dfc4c092e4bd4ec56f56086cc820c273a051638af911ca9e363c6370215f47",
-        "signature": "44dfc4c092e4bd4ec56f56086cc820c273a051638af911ca9e363c6370215f47"
+        "version": "2f78cd7ade1bfb6716d32168cf5d445d522be341ba93cff0ac1bbcf1eadc4f93",
+        "signature": "2f78cd7ade1bfb6716d32168cf5d445d522be341ba93cff0ac1bbcf1eadc4f93"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts": {
-        "version": "6dbd8b9ca8fd4065892ddbe27df720472ee1e46a97580d3e1a4efa4378f96d3e",
-        "signature": "6dbd8b9ca8fd4065892ddbe27df720472ee1e46a97580d3e1a4efa4378f96d3e"
+        "version": "55d3691df29e9c8821942aaff0285f4a2f71db7b1b9e19327113a3206b0b6eee",
+        "signature": "55d3691df29e9c8821942aaff0285f4a2f71db7b1b9e19327113a3206b0b6eee"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts": {
-        "version": "8ed730f94a1d1ec0a988c7c20d900838edca918c6007e8414c811d09da9ca82f",
-        "signature": "8ed730f94a1d1ec0a988c7c20d900838edca918c6007e8414c811d09da9ca82f"
+        "version": "f20fdd7f0db49377655491ef5fae341bf8cc6543d7d7912bcff7a6bcb679d120",
+        "signature": "f20fdd7f0db49377655491ef5fae341bf8cc6543d7d7912bcff7a6bcb679d120"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts": {
-        "version": "70c8285f4d328219598d49468f1ba9e11eb8986c5ba2589d135daf1b4318d75f",
-        "signature": "70c8285f4d328219598d49468f1ba9e11eb8986c5ba2589d135daf1b4318d75f"
+        "version": "af505d8be0fe3dd1a5eacd0182b61363e6175bb3549690f15358ca49605f5d54",
+        "signature": "af505d8be0fe3dd1a5eacd0182b61363e6175bb3549690f15358ca49605f5d54"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": {
-        "version": "d578ad451a6dcb9423235693f7796762b25f62f2418c9c195e630d5f1e096a1b",
-        "signature": "d578ad451a6dcb9423235693f7796762b25f62f2418c9c195e630d5f1e096a1b"
+        "version": "d9a71be99584b1dbcee4c93755a755585d0b0df7ad33b83ae3ef9904ed25f55d",
+        "signature": "d9a71be99584b1dbcee4c93755a755585d0b0df7ad33b83ae3ef9904ed25f55d"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts": {
-        "version": "6b101b93302601dfeffaa059584025917338034a4e0cf4901de4a0d12285f7f0",
-        "signature": "6b101b93302601dfeffaa059584025917338034a4e0cf4901de4a0d12285f7f0"
+        "version": "e18d47b2e4c81cbe0bc5c3238573d283f99da11779bdd13075c4ad324b841c10",
+        "signature": "e18d47b2e4c81cbe0bc5c3238573d283f99da11779bdd13075c4ad324b841c10"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts": {
-        "version": "685029b83806fa5f622523084d741b988f0faf0055995c25de4489d80320afc2",
-        "signature": "685029b83806fa5f622523084d741b988f0faf0055995c25de4489d80320afc2"
+        "version": "de5a02a0bdb000a4f03b205a5dc84c5190911dcd49a2cdabf54d884b20d484bb",
+        "signature": "de5a02a0bdb000a4f03b205a5dc84c5190911dcd49a2cdabf54d884b20d484bb"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts": {
-        "version": "481bec306b262b8b787c6ca5cdba7089c9424a4c197100561312d7eb367f5b99",
-        "signature": "481bec306b262b8b787c6ca5cdba7089c9424a4c197100561312d7eb367f5b99"
+        "version": "82c148b2b40a39826289782b49016cc7356e477ed7a63713ff341531abbb8671",
+        "signature": "82c148b2b40a39826289782b49016cc7356e477ed7a63713ff341531abbb8671"
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": {
+        "version": "b26fde6c572aa5bf45b5cafa89eefae20a8a61535ebdab94537395cbd4f3d45f",
+        "signature": "b26fde6c572aa5bf45b5cafa89eefae20a8a61535ebdab94537395cbd4f3d45f"
       },
       "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts": {
-        "version": "d51f4ca4af328d20ca4688a5a794afec4b3ca2d6680a7958dacdc0ef8cf83494",
-        "signature": "d51f4ca4af328d20ca4688a5a794afec4b3ca2d6680a7958dacdc0ef8cf83494"
+        "version": "cc9275155774010a4358fd303e5e305e46fe48e58da5e39774ea13db3525300a",
+        "signature": "cc9275155774010a4358fd303e5e305e46fe48e58da5e39774ea13db3525300a"
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": {
+        "version": "631eeab6fd0d5367cd8927ef8e036e3368b33730cba3c6832447be8ad6840451",
+        "signature": "631eeab6fd0d5367cd8927ef8e036e3368b33730cba3c6832447be8ad6840451"
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts": {
+        "version": "33f449b99614a238bdada26166ba73cf4df88b6a0194717eb2dd73ff63bcf9a6",
+        "signature": "33f449b99614a238bdada26166ba73cf4df88b6a0194717eb2dd73ff63bcf9a6"
       },
       "./node_modules/vscode-languageserver-protocol/lib/main.d.ts": {
-        "version": "a1a9663551df20d2802ead0623d2ac9e8594312fae376e953c6be340f4a7a09c",
-        "signature": "a1a9663551df20d2802ead0623d2ac9e8594312fae376e953c6be340f4a7a09c"
+        "version": "7a0b58002d37c2c11d37f8fa3c8c0a05e28e5246638082c21f3b86edcb119301",
+        "signature": "7a0b58002d37c2c11d37f8fa3c8c0a05e28e5246638082c21f3b86edcb119301"
       },
       "./node_modules/vscode-languageserver/lib/configuration.d.ts": {
         "version": "82f906ba4d76ca6c94d031de5fcc8fc591576a95dd9d099ea25aa54dd9293561",
@@ -386,19 +398,23 @@
         "signature": "470dfb8b298551581bb7c2c26b319252ce1029c2116e05376cbccf2c634ff1b9"
       },
       "./node_modules/vscode-languageserver/lib/files.d.ts": {
-        "version": "a4737171d9b56d43f52ac685064b6882ba415288803318afcbb755c834d0e8f2",
-        "signature": "a4737171d9b56d43f52ac685064b6882ba415288803318afcbb755c834d0e8f2"
+        "version": "b3d86152c799ebb4475d57e1a3034fbb65a07a9da980952aebb4c646e271dffc",
+        "signature": "b3d86152c799ebb4475d57e1a3034fbb65a07a9da980952aebb4c646e271dffc"
+      },
+      "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts": {
+        "version": "045d3173901d7ac4503c8fa88528fe835ce41f86cc8cd3101c3a6c32ecc6ec09",
+        "signature": "045d3173901d7ac4503c8fa88528fe835ce41f86cc8cd3101c3a6c32ecc6ec09"
       },
       "./node_modules/vscode-languageserver/lib/main.d.ts": {
-        "version": "e412afe13639f92925a8296a98fa39470bde3a9915014eea206c08591aafe220",
-        "signature": "e412afe13639f92925a8296a98fa39470bde3a9915014eea206c08591aafe220"
+        "version": "7887ce36a5993930fcc1b1264dc9466fcf29b4bacd13f243278f83106ec9e6d1",
+        "signature": "7887ce36a5993930fcc1b1264dc9466fcf29b4bacd13f243278f83106ec9e6d1"
       },
       "./src/services/documentservice.ts": {
         "version": "c4d73376522e3d4dc16ebb45f8be55d554907fa3a58e99014d6a373d1d8750e8",
         "signature": "be5fc15a3925cd280695ee35f3cc09f842ae5028bdffaf6c417dc291172c8546"
       },
       "./src/services/vls.ts": {
-        "version": "9684d5cb967012835820a91dd0999342159d278eae1936746c7754bc86096eca",
+        "version": "b6373d93a38ee499a4d7cd12290dfa34332f956ab76aed10e69f59e28042c17e",
         "signature": "cf479eb0d63061d4b655bcaabc8b9b0cb8e5183491dd243fa782bf3381f61939"
       },
       "./src/ddxservermain.ts": {
@@ -954,7 +970,7 @@
         "./node_modules/@types/node/ts3.2/globals.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts": [
+      "./node_modules/vscode-jsonrpc/typings/thenable.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1014,7 +1030,7 @@
         "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
         "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
         "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
-        "./node_modules/vscode-jsonrpc/lib/thenable.d.ts",
+        "./node_modules/vscode-jsonrpc/typings/thenable.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -1044,6 +1060,7 @@
       ],
       "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": [
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1068,6 +1085,13 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts": [
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
@@ -1078,6 +1102,19 @@
         "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1085,6 +1122,8 @@
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1104,11 +1143,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/vscode-languageserver/lib/main.d.ts": [
         "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
         "./node_modules/vscode-languageserver/lib/configuration.d.ts",
         "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
         "./node_modules/vscode-languageserver/lib/files.d.ts",
+        "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts",
         "./node_modules/vscode-languageserver/lib/thenable.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1695,6 +1741,7 @@
         "./node_modules/vscode-languageserver/lib/configuration.d.ts",
         "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
         "./node_modules/vscode-languageserver/lib/files.d.ts",
+        "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts",
         "./node_modules/vscode-languageserver/lib/thenable.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1706,6 +1753,12 @@
       "./src/services/documentservice.ts": [
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
         "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts": [
         "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
@@ -1728,12 +1781,26 @@
         "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
         "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
         "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
-        "./node_modules/vscode-jsonrpc/lib/thenable.d.ts",
+        "./node_modules/vscode-jsonrpc/typings/thenable.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/vscode-languageserver-protocol/lib/main.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": [
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
@@ -1750,6 +1817,14 @@
         "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1774,6 +1849,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts": [
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
@@ -1785,11 +1866,6 @@
         "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
         "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": [
-        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2317,7 +2393,7 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts": [
+      "./node_modules/vscode-jsonrpc/typings/thenable.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2386,7 +2462,7 @@
       "./node_modules/@types/node/ts3.2/util.d.ts",
       "./node_modules/@types/node/ts3.2/globals.d.ts",
       "./node_modules/@types/node/ts3.2/index.d.ts",
-      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts",
+      "./node_modules/vscode-jsonrpc/typings/thenable.d.ts",
       "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
       "./node_modules/vscode-jsonrpc/lib/events.d.ts",
       "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
@@ -2404,11 +2480,15 @@
       "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
       "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
       "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
       "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.proposed.d.ts",
       "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
       "./node_modules/vscode-languageserver/lib/configuration.d.ts",
       "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
       "./node_modules/vscode-languageserver/lib/files.d.ts",
+      "./node_modules/vscode-languageserver/lib/proposed.progress.d.ts",
       "./node_modules/vscode-languageserver/lib/main.d.ts",
       "./src/services/documentservice.ts",
       "./src/services/vls.ts",

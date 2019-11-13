@@ -2,7 +2,7 @@ import * as glob from 'glob';
 import { safeLoad } from 'js-yaml';
 import { writeFileSync, readFileSync } from 'fs';
 import { parse } from 'path';
-import { getGeneratedGrammar } from '../client/src/grammar';
+import { getGeneratedGrammar } from '../client/grammar';
 
 glob('syntaxes/**/*.yaml', { nocase: true }, (_, files) => {
   for (const file of files) {

@@ -25,7 +25,6 @@ import {
     Diagnostic,
     DocumentHighlight,
     DocumentLink,
-    DocumentSymbolParams,
     Hover,
     Location,
     SignatureHelp,
