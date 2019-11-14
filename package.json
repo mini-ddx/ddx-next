@@ -1,16 +1,18 @@
 {
   "name": "ddx",
   "displayName": "ddx",
-  "description": "mini program enhancement framework",
+  "description": "mini program enhancement",
   "version": "0.0.1",
   "publisher": "yyjazsf",
   "license": "MIT",
   "scripts": {
     "build:grammar": "tsc -p . && node dist/scripts/build_grammar",
-    "watch": "run-s compile watch:build",
+    "watch": "run-s compile:source watch:build",
     "watch:build": "tsc -b -w .",
     "compile": "run-s compile:source",
-    "compile:source": "tsc -b ."
+    "compile:source": "tsc -b .",
+    "prepare-publish": "./build/release-cleanup.sh",
+    "package": "npm run build:grammar && npm run prepare-publish && vsce package && cd server && yarn && cd .."
   },
   "engines": {
     "vscode": "^1.40.0"
